@@ -7,7 +7,7 @@ You will be using pointers to character arrays and treating them like string lit
 # Task
 
 * Implement `substring()`, `reverse()`, and `ltrim()` in string_functions.cpp. You can find information about these functions in string_functions.h.
-* For the implementations, use [`memcpy()`](https://cplusplus.com/reference/cstring/memcpy/) and [`strlen()`](https://cplusplus.com/reference/cstring/strlen/) of <string.h>. Do not use other built-in functions such as `strcat()`. You can refer to the implementation of `concat()`, which is already complete, to see how `memcpy()`, `strlen()`, and the null character are used.
+* For the implementations, you can use [`strlen()`](https://cplusplus.com/reference/cstring/strlen/) of <string.h>. Do not use other built-in functions. You can refer to the implementation of `concat()`, which is already complete, to see how `strlen()` and the null character are used.
 
 # Compile and Test
 
@@ -23,7 +23,6 @@ g++ -o main *.cpp *.h
 2.  Inputs
 * Line 1: operation code (0=concat; 1=substring; 2=reverse; and 3=ltrim)
 * Line 2+: multiple lines based on the string operation
-* End line: the defined operation code (i.e., 0, 1, 2, or 3) to continue OR another integer (e.g., 4) to exit
 
 concat():
 ```

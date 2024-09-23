@@ -4,6 +4,8 @@ In this homework assignment, you will implement a few string manipulation functi
 
 You will be using pointers to character arrays and treating them like string literals. When dealing with string literals, it is important that after the last character, there is a null character `'\0'`. The null character indicates the end of the string of characters and is vital when using functions such as `strlen()`.
 
+In this assignment, `const` is used for pointers and data. Check parameters of the functions.
+
 # Task
 
 * Implement `substring()`, `reverse()`, and `ltrim()` in string_functions.cpp. You can find information about these functions in string_functions.h.
